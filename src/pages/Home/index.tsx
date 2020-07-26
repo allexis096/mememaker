@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Wrapper, Card, Templates } from './styles';
+import { Wrapper, Card, Templates, Form, Button } from './styles';
 import logo from '../../assets/logo.svg';
 
 const Home: React.FC = () => {
@@ -24,6 +24,15 @@ const Home: React.FC = () => {
             <img src="" alt="Template 1" />
           </button>
         </Templates>
+
+        <h2>Textos</h2>
+        <Form>
+          <input placeholder="text #1" />
+          <input placeholder="text #1" />
+          <input placeholder="text #1" />
+
+          <Button type="submit">MakeMyMeme!</Button>
+        </Form>
       </Card>
     </Wrapper>
   );
