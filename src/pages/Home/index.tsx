@@ -4,7 +4,7 @@ import qs from 'qs';
 import { Wrapper, Card, Templates, Form, Button } from './styles';
 import logo from '../../assets/logo.svg';
 
-import api from '../../config/api';
+import api from '../../services/api';
 
 interface TemplateProps {
   id: string;
