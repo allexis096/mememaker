@@ -24,12 +24,12 @@
   Mememaker
 </h2>
 
-<p align="center">“Typescript version of <a href="https://www.youtube.com/watch?v=Yajip86C8sg">this youtube video </a>”!</p>
+<p align="center">Typescript version of <a href="https://www.youtube.com/watch?v=Yajip86C8sg">this youtube video </a>!</p>
 
 ## 🚀 About this challenge
 
 In this challenge, I need to create a mememaker. I connect the front-end with the API, and get the response on the screen.
-The response is 2020 meme!
+The response is a 2020 meme!
 
 ## 🔨 Techs:
 
@@ -44,7 +44,7 @@ The response is 2020 meme!
 
 ## 🚀 How to run
 
-For clone and execute this app, you need to have [Git](https://git-scm.com) and [NodeJs][nodejs] installed in you PC.
+For clone and run this app, you need to have [Git](https://git-scm.com) and [NodeJs][nodejs] installed in your PC.
 
 ### 🌀 Cloning the repository
 
