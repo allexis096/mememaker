@@ -80,7 +80,7 @@ const Home: React.FC = () => {
 
   return (
     <Wrapper>
-      <img src={logo} alt="Mememaker" />
+      {!generatedMeme ? <img src={logo} alt="Mememaker" /> : ''}
 
       <Card>
         {generatedMeme && (
