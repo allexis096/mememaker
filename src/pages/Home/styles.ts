@@ -22,6 +22,12 @@ export const Card = styled.div`
     color: #392d2d;
     margin-bottom: 10px;
   }
+
+  img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 25px;
+  }
 `;
 
 export const Templates = styled.div`
@@ -36,9 +42,13 @@ export const Templates = styled.div`
   margin-bottom: 30px;
 
   button {
-    border: 0;
     background: transparent;
     margin-right: 10px;
+    border: 2px solid transparent;
+
+    &.selected {
+      border-color: #4395d8;
+    }
 
     img {
       width: 53px;
