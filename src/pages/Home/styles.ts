@@ -23,7 +23,7 @@ export const Card = styled.div`
     margin-bottom: 10px;
   }
 
-  img {
+  > img {
     width: 100%;
     height: 100%;
     margin-bottom: 25px;
